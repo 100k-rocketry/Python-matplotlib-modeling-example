@@ -50,7 +50,7 @@ class Flight_main:
             print "Latitude: %f Longitude: %f Altitude: %f x: %d\n" % (
                 self.c[i].loc[0], self.c[i].loc[1], self.c[i].loc[2], i)
 
-    def generate_3d_graph(self):
+    def generate_3d_graph(self): #this is where the matplotlib model is generated
         fig = plt.figure()
         ax = fig.add_subplot(111, projection='3d')
         
